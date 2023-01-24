@@ -1,0 +1,43 @@
+.homePage {
+  position: relative;
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 20rem auto;
+  padding-top: 4.5rem;
+}
+@media screen and (max-width: 1150px) {
+  .homePage {
+    width: 90%;
+    grid-template-columns: 20rem auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .homePage {
+    width: 100%;
+    grid-template-columns: auto;
+  }
+  .profileSide {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+  .homePage {
+    padding-top: 4.2rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .homePage {
+    padding-top: 3.9rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .homePage {
+    padding-top: 3.6rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .homePage {
+    padding-top: 2.6rem;
+  }
+}

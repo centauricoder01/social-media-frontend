@@ -1,0 +1,43 @@
+.profileInfo {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  padding: 15px;
+}
+.profileInfo > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.profileInfo > div > span:nth-child(1) {
+  width: 35%;
+}
+.profileInfo > div > p {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.inputForm input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 0.7rem auto;
+  font-size: 15px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid rgb(187, 187, 187);
+  color: gray;
+  box-sizing: border-box;
+}
+.accountDrawer p {
+  padding: 15px 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(11, 82, 152);
+  border-bottom: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+}
